@@ -1,0 +1,58 @@
+html { 
+  background: url(../images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#king{
+	background: url(../images/picture13.png) no-repeat ;
+	width:33.33%;
+	height:412px;
+	opacity:0.5;
+	
+	
+}
+#king:hover{
+	background: url(../images/picture11.png) no-repeat;
+	width:33.33%;
+	height:412px;
+	
+
+}
+#warden{
+	background: url(../images/picture5.png) no-repeat ;
+	width:33.33%;
+	height:412px;
+	opacity:0.5;
+	
+	
+}
+
+#warden:hover{
+	background: url(../images/picture4.png) no-repeat;
+	width:33.33%;
+	height:412px;
+	
+	
+	
+}
+
+#knight{
+	background: url(../images/knight.png) no-repeat;
+	width:33.33%;
+	height:412px;
+}
+#knight:hover{
+	background: url(../images/knightSmile.png) no-repeat;
+	width:33.33%;
+	height:412px;
+}
+
+h3{	color:white;
+	padding:120px;
+}
+p{	
+	color:white;
+}

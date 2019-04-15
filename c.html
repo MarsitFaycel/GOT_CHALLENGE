@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./css/c.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+
+</head>
+
+<body>
+	
+
+	
+	<div class="w3-main w3-content w3-padding " style="max-width:1200px;margin-top:100px">
+	 
+  <!-- King-->
+  
+  
+  <div class="w3-row-padding w3-padding-16 w3-center" >
+    <div class="w3-third" id="king" onmouseenter="play0()" >
+     
+      <h3 ></h3>
+      <p >king contributes to the development of the core of the domain language; contributes in some extensions, gems or libraries and public tools; He/she is a frequent speaker at international conferences and it is usual to see his/her name in the credits of changes of version of his domain language</p>
+      
+	 <audio id="lannister" src="./sound/joffrey.m4a" controls  hidden ></audio>
+	  
+	  
+    </div>
+	
+	<!-- warden-->
+	
+	
+	
+    <div class="w3-third" id="warden" onmouseenter="play()">
+    	
+			
+		<h3 ></h3>
+      <p > warden knows what design patterns are and applies them, understands the basics of what MVC, REST, CRUD, ORM, SQL Injection, XSS, I / O Sanitization, etc. are, applies this knowdledge alogside other techniques; He/she is an excellent learner and uses third-party APIs.</p>
+		
+     	 <audio id="stark" src="./sound/EddStarck.m4a" controls  hidden ></audio>
+    </div>
+	
+	
+	
+	
+	
+	<!-- knight-->
+	
+    <div class="w3-third" id="knight" onmouseenter="play1()"><a href="./map.html" style="text-decoration:none">
+     
+
+      <h3 ></h3>
+	  
+      <p> knight usually writes code without consistency in indentation or conventions and usually copies and pastes anything found on the internet that seems to do what it was asked to deliver and that, according to the forums, is the solution.</p>
+      <audio id="jaime" src="./sound/lannister.m4a" controls  hidden ></audio>
+		</a>
+	</div>
+    
+  </div>
+
+</body>
+<script>
+function play0(){
+       var audio0 = document.getElementById("lannister");
+	   var audio1 = document.getElementById("stark");
+	   var audio2 = document.getElementById("jaime");
+       audio0.play();
+	   audio1.pause();
+	   audio2.pause();
+	   
+               }
+ function play(){
+        var audio0 = document.getElementById("lannister");
+	   var audio1 = document.getElementById("stark");
+	   var audio2 = document.getElementById("jaime");
+       audio0.pause();
+	   audio1.play();
+	   audio2.pause();
+	   
+               }
+			   function play1(){
+        var audio0 = document.getElementById("lannister");
+	   var audio1 = document.getElementById("stark");
+	   var audio2 = document.getElementById("jaime");
+       audio0.pause();
+	   audio1.pause();
+	   audio2.play();
+               }
+</script>
+</html>

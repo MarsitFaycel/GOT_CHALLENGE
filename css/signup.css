@@ -1,0 +1,57 @@
+#case
+{
+
+        -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d9dbdb;
+    box-shadow: none;
+    color: rgba(0, 0, 0, 0.75);
+    display: block;
+    font-family: inherit;
+    font-size: 1rem;
+    height: 2.85714286rem;
+    margin: 0 0 1.28571429rem 0;
+    padding: 0.64285714rem;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: border-color 0.15s linear, background 0.15s linear;
+    -moz-transition: border-color 0.15s linear, background 0.15s linear;
+    -ms-transition: border-color 0.15s linear, background 0.15s linear;
+    -o-transition: border-color 0.15s linear, background 0.15s linear;
+    transition: border-color 0.15s linear, background 0.15s linear;
+}
+.panel {
+	margin-right: 400px;
+	margin-left: 400px;
+	margin-top: 130px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d9dbdb;
+    margin-bottom: 1.42857143rem;
+    padding: 1.42857143rem;
+    background: #fff;
+    color: #666;
+    border-color: #d9dbdb;
+    color: #666;
+}
+.panel .panel-footer {
+    border-top: 1px solid #eaeaea;
+    padding: 1.42857143rem;
+    margin: -1.42857143rem;
+    background: #f9f9fa;
+}
+.button.radius {
+    border-radius: 5px;
+}
+.button {
+    border-radius: 5px;
+    padding: 0.78571429rem 1.71428571rem;
+    font-size: 1rem;
+    background-color: #83ba3b;
+}
